@@ -100,6 +100,11 @@ function setupInterface() {
     }
   });
 
+  createUIButton("Save Canvas", 10, 330, () => {
+    saveCanvas("my_collage", "jpg");
+  });
+
+
 
   preventDeselectionOnUIInteraction();
 }
