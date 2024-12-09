@@ -9,17 +9,17 @@ let musicMuted = false;
 //loading....
 function preload() {
   imageLibrary = [
-    loadImage("assets/image1.jpg"),
-    loadImage("assets/image2.jpg"),
-    loadImage("assets/image3.jpg"),
-    loadImage("assets/image4.jpg"),
-    loadImage("assets/image5.jpg"),
-    loadImage("assets/image6.jpg"),
-    loadImage("assets/image7.jpg"),
-    loadImage("assets/image8.jpg"),
+    loadImage("image1.jpg"),
+    loadImage("image2.jpg"),
+    loadImage("image3.jpg"),
+    loadImage("image4.jpg"),
+    loadImage("image5.jpg"),
+    loadImage("image6.jpg"),
+    loadImage("image7.jpg"),
+    loadImage("image8.jpg"),
   ];
   //cute little song i made (add volume knob?)
-  backgroundMusic = loadSound("assets/music.mp3");
+  backgroundMusic = loadSound("music.mp3");
 }
 
 function setup() {
